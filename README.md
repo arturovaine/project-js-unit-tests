@@ -1,68 +1,28 @@
 ## Projeto de ES6 e Testes Unitários
 
----
-
 ## Sumário
 
-- [Habilidades](#habilidades)
-- [Entregáveis](#entregáveis)
-  - [O que deverá ser desenvolvido](#o-que-será-desenvolvido)
-  - [Desenvolvimento](#desenvolvimento)
-- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
-- [Como desenvolver](#como-desenvolver)
-  - [ESLint](#eslint)
+- [Habilidades utilizadas no projeto](#habilidades)
+- [Instruções gerais](#instruções-para-entregar-seu-projeto)
 - [Requisitos do projeto](#requisitos-do-projeto)
-  - [1. Implemente a função average](#1-implemente-a-função-average)
-  - [2. Implemente os casos de teste para a função numbers](#2-implemente-os-casos-de-teste-para-a-função-numbers)
-  - [3. Implemente a função vqv](#3-implemente-a-função-vqv)
-  - [4. Implemente os casos de teste para a função circle](#4-implemente-os-casos-de-teste-para-a-função-circle)
-  - [5. Implemente a função createStudent](#5-implemente-a-função-createstudent)
-  - [6. Implemente os casos de teste para a função productDetails](#6-implemente-os-casos-de-teste-para-a-função-productdetails)
-  - [7. Implemente a função objCalculator](#7-implemente-a-função-objcalculator)
-  - [8. Implemente a função myCounter](#8-implemente-a-função-mycounter)
-  - [9. Implemente os casos de teste para a função getCharacter](#9-implemente-os-casos-de-teste-para-a-função-getcharacter)
-  - [10. Implemente os casos de teste e a função createMenu](#10-implemente-os-casos-de-teste-e-a-função-createmenu)
-- [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
-- [Revisando um pull request](#revisando-um-pull-request)
-- [Avisos finais](#avisos-finais)
+  - [1. Implementar a função average](#1-implemente-a-função-average)
+  - [2. Implementar os casos de teste para a função numbers](#2-implemente-os-casos-de-teste-para-a-função-numbers)
+  - [3. Implementar a função vqv](#3-implemente-a-função-vqv)
+  - [4. Implementar os casos de teste para a função circle](#4-implemente-os-casos-de-teste-para-a-função-circle)
+  - [5. Implementar a função createStudent](#5-implemente-a-função-createstudent)
+  - [6. Implementar os casos de teste para a função productDetails](#6-implemente-os-casos-de-teste-para-a-função-productdetails)
+  - [7. Implementar a função objCalculator](#7-implemente-a-função-objcalculator)
+  - [8. Implementar a função myCounter](#8-implemente-a-função-mycounter)
+  - [9. Implementar os casos de teste para a função getCharacter](#9-implemente-os-casos-de-teste-para-a-função-getcharacter)
+  - [10. Implementar os casos de teste e a função createMenu](#10-implemente-os-casos-de-teste-e-a-função-createmenu)
 
 ---
 
-## Habilidades
-
-Nesse projeto, você será capaz de:
+## Habilidades utilizadas no projeto
 
 - Escrever testes unitários para funções utilizando o módulo Assert do NodeJS para verificar o correto funcionamento dessas funções;
 - A partir de testes já implementados, escrever funções de forma que elas atendam aos testes propostos;
 - Escrever testes e funções utilizando uma abordagem de desenvolvimento orientado a testes.
-
----
-
-## Entregáveis
-
-Para entregar o seu projeto você deverá criar um Pull Request neste repositório.
-
-Lembre-se que você pode consultar nosso conteúdo sobre
-[Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
-
----
-
-### O que será desenvolvido
-
-Você implementará várias funções para atender aos requisitos propostos e/ou testes unitários para garantir que as implementações das funções estão corretas.
-
----
-
-### Desenvolvimento
-
-* Nos testes unitários que não estão implementados, vocês verão um `assert.fail();`. Esse código deve ser removido a partir do momento que vocês começarem a escrever o teste unitário. Ele só existe para fazer o teste falhar. Se o `assert.fail();` não estivesse nos blocos em que não há testes unitários implementados ainda, o teste iria passar com sucesso, pois não haveria nada para ser testado dentro.
-
-* Os comandos que você utilizará com mais frequência são:
-  * `npm test` _(executa todos os testes presentes na aplicação)_
-  * `npm test path/to/file` _(executa apenas os testes presentes no arquivo path/to/file)_
-    * Exemplo: `npm test tests/average.spec.js`
 
 ---
 
